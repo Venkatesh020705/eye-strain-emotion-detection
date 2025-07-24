@@ -55,18 +55,23 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 ---
+## ✅ Workflow
 
-**✅ Workflow**
-1.Create account / login
-2.Complete blink calibration (guided: normal, low, rapid)
-3.Start live monitoring
-4.View session analytics
+1. Create account / login  
+2. Complete blink calibration (guided: normal, low, rapid)  
+3. Start live monitoring  
+4. View session analytics
 
-**📦 Requirements**
-All dependencies are listed in requirements.txt.
+---
+
+## 📦 Requirements
+
+All dependencies are listed in `requirements.txt`.  
 Main libraries include:
-   streamlit
-   tensorflow
-   opencv-python
-   mediapipe
-   pandas, numpy, etc.
+
+- `streamlit`  
+- `tensorflow`  
+- `opencv-python`  
+- `mediapipe`  
+- `pandas`, `numpy`, etc.
+
