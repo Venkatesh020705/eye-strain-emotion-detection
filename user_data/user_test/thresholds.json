@@ -1,0 +1,10 @@
+{
+  "normal_ear_mean": 0.23819123995554958,
+  "strain_ear_mean": 0.2218179516955361,
+  "rapid_ear_mean": 0.23048986514429376,
+  "blink_threshold": 0.1667338679688847,
+  "strain_threshold": 0.23000459582554283,
+  "rapid_threshold": 0.23434055254992167,
+  "calibration_date": "2025-05-19T11:25:44.603805",
+  "user_id": "user_test"
+}
