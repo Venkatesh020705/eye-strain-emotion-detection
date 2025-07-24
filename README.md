@@ -38,71 +38,35 @@ A deep learning–powered fatigue monitoring system that uses only a **standard 
    - Reduces false positives and increases reliability
 
 ---
-
 ## 🚀 Quick Start
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/fatigue-monitoring-system.git
-   cd fatigue-monitoring-system
-Install Dependencies
+### 1. Clone the Repository
 
-bash
-Copy
-Edit
+```bash
+git clone https://github.com/your-username/fatigue-monitoring-system.git
+cd fatigue-monitoring-system
+```
+### 2. Install Dependencies
+```bash
 pip install -r requirements.txt
-Run the App
-
-bash
-Copy
-Edit
+```
+### 3. Run the App
+```bash
 streamlit run app.py
-Workflow
+```
+---
 
-Create account / login
+**✅ Workflow**
+1.Create account / login
+2.Complete blink calibration (guided: normal, low, rapid)
+3.Start live monitoring
+4.View session analytics
 
-Complete blink calibration (guided)
-
-Start live monitoring
-
-View session analytics
-
-📦 Requirements
-All dependencies are listed in requirements.txt. Main libraries include:
-
-streamlit
-
-tensorflow
-
-opencv-python
-
-mediapipe
-
-pandas, numpy, etc.
-
-📊 Performance
-Module	Accuracy
-Eye Strain Model	95.68%
-Emotion Classifier	92.00%
-Fusion Model	98.90%
-
-📈 Output
-Live fatigue alert (based on dual-model logic)
-
-Blink trends & fatigue classification
-
-Emotion timeline visualization
-
-🧑‍💻 Contributors
-Adapala Rishi Manikanta
-
-Baba Ameer Shaik
-
-Yaswanth Kancharla
-
-Venkateswara Reddy Tegulapalle
-
-Guide: Dr. Jyotsna C
-
-📄 License
-Licensed under the MIT License.
+**📦 Requirements**
+All dependencies are listed in requirements.txt.
+Main libraries include:
+   streamlit
+   tensorflow
+   opencv-python
+   mediapipe
+   pandas, numpy, etc.
