@@ -8,25 +8,15 @@ A deep learning–powered fatigue monitoring system that uses only a **standard 
 .
 
 ├── pages/                 # Additional Streamlit pages (modular views)
-
 ├── user_data/             # Contains user-specific models and data
-
 │   └── [user_id]/  
-
 │       ├── strain_data.csv
-
 │       ├── eye_model.h5
-
 │       └── logs/
-
 ├── app.py                 # Main entry point of the Streamlit app
-
 ├── face_model.h5          # Pretrained facial emotion recognition model
-
 ├── user_profiles.csv      # Stores user login info and metadata
-
 ├── requirements.txt       # All required Python packages
-
 └── README.md              # This file
 
 
