@@ -6,7 +6,6 @@ A deep learning–powered fatigue monitoring system that uses only a **standard 
 
 ## 📁 Repository Structure
 .
-.
 ├── pages/                 # Additional Streamlit pages (modular views)
 ├── user_data/             # Contains user-specific models and data
 │   └── [user_id]/         
